@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tienda 2-UNSA</title>
+    <link rel="icon" href="https://www.unsa.edu.pe/wp-content/uploads/2017/12/cropped-LogoUNSAFav-192x192.png" sizes="192x192">
+</head>
+<body>
+    <div class="page-nav"> <!-- Aplicamos el div para definir y aplicarle estilos nuestra clase page-nav, -->
+        <h1>Tiendad Online de Frutas :D</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button> <!-- Creacion del boton-->
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Melon</h3>
+            <img src="imagens/melon.jpg" /><!-- Img para poder insertar una imagen a gusto-->
+            <h1>$30</h1>
+            <button class="button-add" onclick="add('cel', 50)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Fresa</h3>
+            <img src="imagens/fresa.jpg" />
+            <h1>$80</h1>
+            <button class="button-add" onclick="add('audi', 300)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Sandia</h3>
+            <img src="imagens/sandia.jpg" />
+            <h1>$28</h1>
+            <button class="button-add" onclick="add('silla', 250)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Manzana</h3>
+            <img src="imagens/manzana.jpg" />
+            <h1>$35</h1>
+            <button class="button-add" onclick="add('mous', 200)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Pera</h3>
+            <img src="imagens/pera.jpg" />
+            <h1>$56</h1>
+            <button class="button-add" onclick="add('tel', 10)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Platano</h3>
+            <img src="imagens/platano.jpg" />
+            <h1>$25</h1>
+            <button class="button-add" onclick="add('tecla', 650)">Agregar</button>
+        </div>
+    </div>
+</body>
+</html>

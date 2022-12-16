@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Tienda-UNSA</title>
+    <link rel="stylesheet" href="styles.css" />   <!--Enlazamiento con css-->
+    <script src="scripts.js"></script>   <!---Enlazamiento con JavaScript-->
+    <link rel="icon" href="https://www.unsa.edu.pe/wp-content/uploads/2017/12/cropped-LogoUNSAFav-192x192.png" sizes="192x192">
+</head>
+<body>
+    <ul class="menu">
+		<li><a href="#">Tienda Online de Artefactos :D</li>	
+		<li><a href="file:///D:/UNSA-II/TEO.%20WEB1/online0.html">Tienda Online de Navidad :D</a></li>
+		<li><a href="file:///D:/UNSA-II/TEO.%20WEB1/online1.html">Tienda Online de Frutas :D</a></li>
+    </ul>
+    <div class="page-nav"> <!-- Aplicamos el div para definir y aplicarle estilos nuestra clase page-nav, -->
+        <h1>Tienda Online de Artefactos :D</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button> <!-- Creacion del boton-->
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Smartphone</h3>
+            <img src="imagens/cel.jpg" /><!-- Img para poder insertar una imagen a gusto-->
+            <h1>$700</h1>
+            <button class="button-add" onclick="add('cel', 700)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Audifono Inalambrico</h3>
+            <img src="imagens/audi.jpg" />
+            <h1>$70</h1>
+            <button class="button-add" onclick="add('audi', 70)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>USB USAMS</h3>
+            <img src="imagens/silla.jpg" />
+            <h1>$110</h1>
+            <button class="button-add" onclick="add('silla', 110)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Mous Gamer</h3>
+            <img src="imagens/mous.jpg" />
+            <h1>$50</h1>
+            <button class="button-add" onclick="add('mous', 50)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Laptops Lenovo</h3>
+            <img src="imagens/tel.jpg" />
+            <h1>$1500</h1>
+            <button class="button-add" onclick="add('tel', 1500)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Teclado Gamer</h3>
+            <img src="imagens/tecla.jpg" />
+            <h1>$250</h1>
+            <button class="button-add" onclick="add('tecla', 250)">Agregar</button>
+        </div>
+    </div>
+</body>
