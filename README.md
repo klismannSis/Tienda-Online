@@ -1,1 +1,1 @@
-# Tienda-Online cimpletada con funcionalidad.
+# Tienda-Online completada con funcionalidad.
